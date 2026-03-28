@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "../styles/UserProfile.css"; 
+import "../styles/userProfile.css"; 
 import { CertificateGenerator } from "./CertificateGenerator";
 import { Award, Eye, Calendar, ShieldCheck } from "lucide-react";
 
