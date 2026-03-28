@@ -1,0 +1,129 @@
+/* Background Black, Text Yellow */
+.profile-container {
+  min-height: 100vh;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-card {
+  background: #111;
+  color: #FFD700; /* Yellow text */
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+  border: 2px solid #FFD700;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #FFD700;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+}
+
+.profile-header h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-header p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+/* Lists */
+.profile-view ul {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-view li {
+  background: #222;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border-left: 6px solid #FFD700;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skill {
+  background: #FFD700;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.edit-btn { background: #FFD700; color: #000; margin-top: 20px; }
+.save-btn { background: #FFD700; color: #000; }
+.cancel-btn { background: #555; color: #FFD700; }
+.add-btn { background: #444; color: #FFD700; margin-top: 10px; }
+.delete-btn { background: #900; color: #fff; }
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #FFD700;
+}
+
+/* Edit mode inputs */
+.profile-edit input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #FFD700;
+  background: #000;
+  color: #FFD700;
+  font-size: 16px;
+}
+
+.edit-box {
+  background: #222;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
+
+.edit-skill {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}

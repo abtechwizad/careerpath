@@ -1,0 +1,56 @@
+:root {
+  --font-size: 14px;
+  --background: #ffffff; /* Pure white */
+  --foreground: #1f2937; /* Softer dark gray */
+  --card: #ffffff;
+  --card-foreground: #1f2937;
+  --popover: #ffffff;
+  --popover-foreground: #1f2937;
+
+  --primary: #a7f3d0; /* Softer Mint */
+  --primary-foreground: #1f2937;
+
+  --secondary: #d1fae5; /* Very light green */
+  --secondary-foreground: #1f2937;
+
+  --muted: #f9fafb; /* Very light gray */
+  --muted-foreground: #6b7280;
+
+  --accent: #bae6fd; /* Light pastel blue */
+  --accent-foreground: #1f2937;
+
+  --destructive: #fca5a5; /* Soft red */
+  --destructive-foreground: #1f2937;
+
+  --border: rgba(0, 0, 0, 0.1);
+  --input: #f9fafb;
+  --input-background: #ffffff;
+  --switch-background: #e0f2fe;
+
+  --ring: #bae6fd;
+
+  --chart-1: #a7f3d0;
+  --chart-2: #bae6fd;
+  --chart-3: #fcd34d; /* pastel yellow */
+  --chart-4: #f9a8d4; /* pastel pink */
+  --chart-5: #c4b5fd; /* pastel purple */
+
+  --radius: 0.625rem;
+
+  --sidebar: #f9fafb;
+  --sidebar-foreground: #1f2937;
+  --sidebar-primary: #a7f3d0;
+  --sidebar-primary-foreground: #1f2937;
+  --sidebar-accent: #bae6fd;
+  --sidebar-accent-foreground: #1f2937;
+  --sidebar-border: rgba(0, 0, 0, 0.1);
+  --sidebar-ring: #bae6fd;
+
+  /* Pastel Palette */
+  --pastel-mint: #ecfdf5;
+  --soft-sage: #d1fae5;
+  --gentle-green: #bbf7d0;
+  --calm-emerald: #a7f3d0;
+  --warm-teal: #99f6e4;
+  --fresh-mint: #ccfbf1;
+}
