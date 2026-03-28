@@ -23,31 +23,9 @@ createRoot(document.getElementById("root")!).render(
     <Routes>
       <Route path="/login" element={<LoginPage />} />
       <Route path="/signup" element={<Signup />} />
-      <Route 
-        path="/app" 
-        element={
-          <ProtectedRoute>
-            <App />
-          </ProtectedRoute>
-        } 
-      />
-      <Route 
-        path="/certificate" 
-        element={
-          <ProtectedRoute>
-            <CertificatePage />
-          </ProtectedRoute>
-        } 
-      />
-      {/* Root redirects to app or login via ProtectedRoute */}
-      <Route 
-        path="/" 
-        element={
-          <ProtectedRoute>
-            <App />
-          </ProtectedRoute>
-        } 
-      />
+      <Route path="/app" element={<App />} />
+      <Route path="/certificate" element={<CertificatePage />} />
+      <Route path="/" element={<App />} />
     </Routes>
   </BrowserRouter>
 );
