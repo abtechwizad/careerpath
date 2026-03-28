@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate } from 'react-router-dom';
 import { CertificateGenerator } from './CertificateGenerator';
 
 type CertificateData = {
@@ -12,6 +12,7 @@ type CertificateData = {
 
 const CertificatePage: React.FC = () => {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [data, setData] = useState<CertificateData | null>(null);
 
   useEffect(() => {
@@ -59,7 +60,10 @@ const CertificatePage: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-green-100 flex items-center justify-center px-2 sm:px-6">
-      <CertificateGenerator {...data} />
+      <CertificateGenerator 
+        {...data} 
+        onClose={() => navigate('/app')} 
+      />
     </div>
   );
 };
